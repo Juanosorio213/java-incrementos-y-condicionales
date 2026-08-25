@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package incrementos.y.condicionales;
 
 /**
  *
- * @author juan
+ * @author Juan Sebastian Osorio Cstañeda 20261241939
  */
 public class Incrementos {
-    
+
+    public static void main(String[] args) {
+        int a = 5;
+        int b = ++a;
+
+        int c = 5;
+        int d = c++;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+
+    }
 }
+
