@@ -20,3 +20,5 @@ Permiten alterar el flujo de ejecución del programa basándose en la evaluació
 if, else if, else: Evalúan condiciones de forma secuencial; ejecutan un bloque de código si la condición se cumple y ofrecen alternativas en cascada.
 
 switch: Evalúa una variable frente a múltiples valores posibles (case), optimizando la legibilidad frente a múltiples if-else anidados.
+
+![Incrementos](evidencias/incrementos.png)
