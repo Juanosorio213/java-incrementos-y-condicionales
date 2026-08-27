@@ -7,6 +7,7 @@ Tecnologia en desarrollo de software
 
 21 de agosto de 2026
 
+
 OBJETIVO DE LA ACTIVIDAD
 
 Preincremento (++i): Incrementa el valor de la variable en 1 antes de que se evalúe o se utilice en la expresión actual.
@@ -78,7 +79,32 @@ Resultado en consola: Con los datos ingresados, el contador acumuló las validac
 <img width="1366" height="768" alt="Ejercicio5" src="https://github.com/user-attachments/assets/4ee60d83-2442-4c31-8102-7afb73f897c4" />
 
 
- 
 Explicación del código: Simula el sistema de categorías y beneficios de una aerolínea mediante rangos de cantidad de vuelos (vuelos) y el estado de la membresía activa (Si/No). Utiliza operadores lógicos (&& y ||) para filtrar al pasajero en diferentes niveles (Oro, Plata, Básica o acceso VIP).
 
 Resultado en consola: Al ingresar 71 vuelos (lo que supera el rango mayor a 70) y una membresía activa (Si), el sistema activa de forma correcta la condición exclusiva que muestra "Eres categoría Oro" y "Tienes acceso VIP".
+
+CONCLUSIONES
+
+¿Cuál es la principal diferencia entre ++variable y variable++?
+++variable (Pre-incremento): Incrementa el valor de la variable en 1 antes de que la instrucción actual sea evaluada o utilizada en una operación.
+
+variable++ (Post-incremento): Utiliza el valor actual de la variable en la instrucción en curso y después realiza el incremento en 1 para futuras operaciones.
+
+Ejemplo visual de tu código (Incrementos.jpg): Cuando asignas b = ++a, a pasa a ser 6 de inmediato. En cambio, con d = c++, d toma el valor inicial de c (5) y c solo se convierte en 6 después de esa asignación.
+
+ ¿Qué estructura if considera más adecuada para situaciones complejas y por qué?
+Para situaciones complejas con múltiples condiciones interdependientes (como los validadores de crédito o aerolíneas en tus ejercicios), la estructura más adecuada es el uso de operadores lógicos (&&, ||) combinados con estructuras claras de if-else if-else, o bien el empleo de contadores/banderas de control.
+
+Por qué: Evita el exceso de anidamiento profundo (conocido como Arrow Anti-pattern o código en pirámide), lo que hace que el código sea mucho más legible, fácil de mantener y menos propenso a errores lógicos cuando se requiere evaluar varios criterios simultáneos.
+
+ ¿Qué dificultades encontró durante el desarrollo?
+Manejo de entradas del usuario: Sintonizar correctamente los tipos de datos al capturar información con la clase Scanner (por ejemplo, evitar conflictos al mezclar nextInt() o nextDouble() con nextLine()).
+
+Lógica de condiciones múltiples: Asegurar que los operadores lógicos (&& y ||) evaluaran los rangos numéricos de forma precisa sin excluir casos límite (como los valores exactos en los rangos de la aerolínea o del transporte).
+
+ ¿Qué aprendizajes obtuvo durante la actividad?
+Dominio de operadores avanzados: Comprensión clara de la ejecución interna de los operadores de incremento y su impacto en la asignación de variables.
+
+Estructuras de decisión robustas: Consolidación en el uso de condicionales anidadas y múltiples para resolver problemas del mundo real que requieren validaciones escalonadas.
+
+Buenas prácticas de desarrollo: Organización de proyectos en Java mediante entornos de desarrollo (NetBeans) y estructuración de la documentación y evidencias para repositorios en GitHub.
