@@ -86,6 +86,7 @@ Resultado en consola: Al ingresar 71 vuelos (lo que supera el rango mayor a 70) 
 CONCLUSIONES
 
 ¿Cuál es la principal diferencia entre ++variable y variable++?
+
 ++variable (Pre-incremento): Incrementa el valor de la variable en 1 antes de que la instrucción actual sea evaluada o utilizada en una operación.
 
 variable++ (Post-incremento): Utiliza el valor actual de la variable en la instrucción en curso y después realiza el incremento en 1 para futuras operaciones.
