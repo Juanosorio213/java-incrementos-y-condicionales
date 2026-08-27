@@ -1,3 +1,4 @@
+
 INFORMACION DEL ESTUDIANTE
 
 Juan sebastian Osorio
@@ -21,4 +22,4 @@ if, else if, else: Evalúan condiciones de forma secuencial; ejecutan un bloque 
 
 switch: Evalúa una variable frente a múltiples valores posibles (case), optimizando la legibilidad frente a múltiples if-else anidados.
 
-![Incrementos](Evidencias/incrementos.jpg)
+<img width="1366" height="768" alt="Incrementos" src="https://github.com/user-attachments/assets/cec38292-5f38-4649-a8e5-3a3bfd54e78a" />
