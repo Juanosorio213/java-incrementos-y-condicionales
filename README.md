@@ -21,4 +21,4 @@ if, else if, else: Evalúan condiciones de forma secuencial; ejecutan un bloque 
 
 switch: Evalúa una variable frente a múltiples valores posibles (case), optimizando la legibilidad frente a múltiples if-else anidados.
 
-![Incrementos](Evidencias/incrementos.png)
+![Incrementos](Evidencias/incrementos.jpg)
